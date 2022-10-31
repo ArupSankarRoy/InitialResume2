@@ -1,0 +1,101 @@
+
+
+body {
+  margin: 0;
+  /*When it's 0 dont need to specify px or % */
+  text-align: center;
+  /*its only apply when Width does not Save;*/
+}
+
+/*
+************************************************
+IMPORTANT CONTENT:-----------
+ body{
+margin:0;
+text-align:center;
+font-size:20px;
+}
+h1{
+margin:0 auto 0 auto;
+font-family:'Great Vibes', cursive;
+fnt-size:5.325em;
+}
+PURO GORBOR HOA JABE,AS H1 E MARGIN EKHON DYNAMIC "EM"
+************************************************
+*/
+
+h1 {
+  /*margin-top: 0; h1 ekhane 0 korte holo karon browser e default deoa thake
+                     h1 opor theke 1ta nirdista nichei thakbe*/
+margin-top: 50px;
+  /*If its a BLOCK element and it has a WIDTH set then Apply this Method*/
+
+  font-family: 'Great Vibes', cursive;   /* 16 px= 100% =1 em*/
+/*font-size: 5.625em;                   Ami jodi body te as well as h1 eo LIKHI then h1 ero bere jabe kron eta DYNAMIC
+                                          Static hole jemon px & % hole eta hoto na body te ami jai likhi kno effect porbe na ota te*/
+    font-size: 5.625rem;                /* Means forgot everything on parent body and just get us the 5.625*16 px value*/
+    color: #1C6758;
+}
+
+.pro {
+  text-align: right;
+  text-decoration: underline;
+}
+
+.topContainer {
+  position: relative;
+  padding-top: 100px;
+  background-color: #C6EBC5;
+}
+
+.cloud1 {
+  position: absolute;
+  left: 30%;
+  top: 25%;
+}
+
+.cloud2 {
+  position: absolute;
+  left: 60%;
+  top:10%;
+}
+
+body {
+  margin-top: 0;
+}
+.contact{
+  font-family: 'Amita', cursive;
+}
+
+hr {
+  border-style: dotted none none;
+  border-width: 5px;
+  width: 30px;
+  border-top-color: #B2B2B2;
+}
+p{
+  font-family: 'Gentium Book Basic', serif;
+}
+h2{
+  font-family: 'Great Vibes', cursive;
+  color: #083AA9;
+  font-size: 2.5rem;
+}
+h3{
+font-family: 'League Spartan', sans-serif;
+  font-size:1.5rem;
+  color: #083AA9;
+
+}
+
+.paragraph{
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 1.5625rem;
+  position: absolute;
+  margin: 0;
+  left: 45%;
+  top:47%;
+}
+.profilepic{
+  border-radius: 100%; /* For Rounding The Image*/
+}
